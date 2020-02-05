@@ -8,8 +8,6 @@
 /public/build
 /public/mix-manifest.json
 .env
-.composer.lock
-.package-lock.json
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml

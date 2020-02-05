@@ -15,7 +15,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if ($this->app->runningUnitTests()) {
             Schema::defaultStringLength(191);
+        }
     }
 
     /**
